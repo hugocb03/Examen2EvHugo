@@ -39,7 +39,6 @@ class MainActivity : AppCompatActivity(), SearchView.OnQueryTextListener {
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
         setSupportActionBar(binding.toolbar)
         sh = getSharedPreferences("datos", Context.MODE_PRIVATE)
         getUserSH()

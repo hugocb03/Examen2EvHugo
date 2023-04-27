@@ -14,7 +14,6 @@ object WebAccess {
             .addCallAdapterFactory(CoroutineCallAdapterFactory())
             .baseUrl("http://www.ies-azarquiel.es/paco/apichistes/")
             .build()
-
         return@lazy retrofit.create(ChistesServices::class.java)
     }
 }
